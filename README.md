@@ -4,8 +4,8 @@ Simple Multi threaded HTTP Web Server in Python over TCP. Scroll down for a list
 
 ## Status Codes
 
-_404_ File not found
-_200_ OK
+- _404_ File not found
+- _200_ OK
 
 ## Methods
 
