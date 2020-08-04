@@ -4,20 +4,6 @@ Simple Multi threaded HTTP Web Server in Python over TCP. Scroll down for a list
 
 The Server by default runs on localhost:14143
 
-## Status Codes
-
-- _404_ File not found
-- _200_ OK
-
-## Methods
-
-_GET_
-
-## Files Mime Types
-
-- _text/html_
-- _text/plain_
-
 ## installation
 
 ```bash
@@ -27,7 +13,21 @@ $ pip install -r requirements.txt
 $ python3 main.py
 ```
 
-## Headers
+###### Status Codes
+
+- _404_ File not found
+- _200_ OK
+
+###### Methods
+
+_GET_
+
+###### Files Mime Types
+
+- _text/html_
+- _text/plain_
+
+###### Headers
 
 ```
 Status Code
