@@ -1,6 +1,8 @@
 # http-server 🤖
 
-Simple Multi threaded HTTP Web Server in Python over TCP. Scroll down for a list of supported HTTP methods, headers, status codes and mime types. The server displays  the `not_found.html` if the requested file not found. The Server displayes `index.html` when the requested file is a directory.
+Simple Multi threaded HTTP Web Server in Python over TCP. Scroll down for a list of supported HTTP methods, headers, status codes and mime types. The server displays  the `not_found.html` if the requested file not found. The Server displayes `index.html` when the requested file is a directory. 
+
+The Server by default runs on localhost:14143
 
 ## Status Codes
 
