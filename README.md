@@ -13,8 +13,8 @@ _GET_
 
 ## Files Mime Types
 
-- text/html
-- text/plain
+- _text/html_
+- _text/plain_
 
 ## installation
 
