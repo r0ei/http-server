@@ -1,5 +1,5 @@
-# Created by r0eilevi
-# GitHub: https://github.com/r0eilevi
+# Created by r0ei
+# GitHub: https://github.com/r0ei
 
 from lib.server import HttpServer
 
