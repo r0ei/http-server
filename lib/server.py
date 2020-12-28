@@ -18,9 +18,10 @@ class HttpServer:
             if path.isdir(file_name := extract_file.extract_file(req)):
                 send_file.send_file(client, getcwd() + '/html/index.html', headers.response_headers(getcwd() + '/html/index.html')); continue
             send_file.send_file(client, file_name, headers.response_headers(file_name))
+            print(colored(f"LOG: {' '.join(req.splitlines()[0].split()[:2])}", "blue"))
 
     def __repr__(self) -> str:
-        return 'Made by r0eilevi \u2661'
+        return 'Made by r0ei \u2661'
 
     def accept_clients(self, socket: socket) -> None:
         for _ in range(11):
