@@ -7,7 +7,7 @@ The Server by default runs on localhost:14143
 ## Installation
 
 ```bash
-$ git clone https://github.com/r0eilevi/http-server
+$ git clone https://github.com/r0ei/http-server
 $ cd http-server
 $ pip install -r requirements.txt
 $ python3 main.py
